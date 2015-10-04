@@ -37,7 +37,7 @@
 		CEF205EF1BBE6B8E00954481 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF205F31BBE6B8E00954481 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		CEF205F51BBE6B8E00954481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEF205FE1BBE7F7400954481 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		CEF205FE1BBE7F7400954481 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,26 +58,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE3C129B1BC0D63700353A96 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				CE92405A1BC0D8D0009D9B93 /* New Group */,
-				CEF205E21BBE6B8E00954481 /* Main.storyboard */,
-			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
-		CE92405A1BC0D8D0009D9B93 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
 		CEF205D21BBE6B8E00954481 = {
 			isa = PBXGroup;
 			children = (
-				CEF205FE1BBE7F7400954481 /* CalculatorBrain.swift */,
 				CEF205DD1BBE6B8E00954481 /* Calculator */,
 				CEF205F21BBE6B8E00954481 /* CalculatorTests */,
 				CEF205DC1BBE6B8E00954481 /* Products */,
@@ -96,9 +79,10 @@
 		CEF205DD1BBE6B8E00954481 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CEF205FE1BBE7F7400954481 /* CalculatorBrain.swift */,
 				CEF205DE1BBE6B8E00954481 /* AppDelegate.swift */,
 				CEF205E01BBE6B8E00954481 /* ViewController.swift */,
-				CE3C129B1BC0D63700353A96 /* New Group */,
+				CEF205E21BBE6B8E00954481 /* Main.storyboard */,
 				CEF205E51BBE6B8E00954481 /* Assets.xcassets */,
 				CEF205E71BBE6B8E00954481 /* LaunchScreen.storyboard */,
 				CEF205EA1BBE6B8E00954481 /* Info.plist */,
